@@ -1,0 +1,116 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-top-area {
+    padding: 0;
+}
+.main-menu ul li {
+
+    margin-left: 40px;
+}
+.header-top-area {
+    padding: 15px 0;
+}
+.slider-content {
+    padding: 200px 0;
+}
+.single-slider.slider-height {
+    min-height: 600px;
+}
+.slider-content h2 {
+    font-size: 42px;    
+}
+.footer-icon ul li {
+    margin-right: 35px;
+}
+}
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.slider-content {
+    padding: 150px 0;
+}
+.single-slider.slider-height {
+    min-height: 500px;
+}
+.header-top-area {
+    padding: 15px;
+}
+.buy-wrapper {
+    margin-left: 30px;
+}
+.footer-icon ul li {
+    margin-right: 30px;
+}
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+.header-top-area {
+    padding: 0;
+}
+.right-menu {
+    margin-top: -39px;
+}
+.header-bottombar {
+    padding: 20px 0;
+}
+.mean-container .mean-bar {
+    margin-top: -48px;
+}
+.slider-content {
+    padding: 100px;
+}
+.single-slider.slider-height {
+    min-height: 400px;
+}
+.slider-content h2 {
+    font-size: 20px;
+    line-height: 30px;   
+}
+.slider-content {
+    padding: 20px 0;
+}
+.portfolio-menu button {
+    margin-bottom: 14px;
+}
+  
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
+ 
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
